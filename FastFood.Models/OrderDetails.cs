@@ -5,7 +5,7 @@ using System.Text;
 
 namespace FastFood.Models
 {
-    internal class OrderDetails
+    public class OrderDetails
     {
         public int Id { get; set; }
         public int OrderHeaderId { get; set; }
